@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home Page</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gradient-to-r from-purple-400 via-pink-500 to-red-500">
+  <!-- Navbar -->
+  <nav class="bg-gradient-to-r from-purple-600 to-pink-600 shadow-lg">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex justify-between h-16 items-center">
+        <!-- Logo -->
+        <div class="flex-shrink-0">
+          <a href="index.html" class="text-white text-2xl font-bold hover:text-gray-200 transition duration-300">
+            MyWebsite
+          </a>
+        </div>
+
+        <!-- Menu Items -->
+        <div class="hidden md:flex space-x-8">
+          <a href="index.html" class="text-white hover:text-gray-200 transition duration-300">Home</a>
+          <a href="login.html" class="text-white hover:text-gray-200 transition duration-300">Login</a>
+          <a href="register.html" class="text-white hover:text-gray-200 transition duration-300">Register</a>
+          <a href="contact.html" class="text-white hover:text-gray-200 transition duration-300">Contact</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <div class="flex items-center justify-center min-h-screen">
+    <div class="text-center">
+      <h1 class="text-5xl font-bold text-white mb-4">Welcome to MyWebsite</h1>
+      <p class="text-xl text-gray-200 mb-8">Your one-stop solution for all things awesome!</p>
+      <a href="login.html" class="bg-white text-purple-600 px-6 py-3 rounded-lg font-semibold hover:bg-gray-100 transition duration-300">
+        Get Started
+      </a>
+    </div>
+  </div>
+</body>
+</html>
